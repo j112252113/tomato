@@ -98,6 +98,36 @@ footer {
     transition: background-color 0.3s;
 }
 
+#pause-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #dadd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#stop-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #ce3838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
 #start-button:hover {
     background-color: #45a049;
+}
+
+#pause-button:hover {
+    background-color: #bec746;
+}
+
+#stop-button:hover {
+    background-color: #723939;
 }
